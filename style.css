@@ -1,6 +1,7 @@
-div {width: 500px;
-  height: 500px;
-  background-color: LemonChiffon;}
+div {width: 800px;
+  height: 800px;
+  background-color: LemonChiffon;
+  text-align: center;}
 button-1 {background-color: black;
     color: white}
 h1 {color: green}
