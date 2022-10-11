@@ -4,6 +4,8 @@ div {width: 800px;
   text-align: center;}
 button-1 {background-color: black;
     color: white}
-h1 {color: green}
+h1 {color: green;
+  margin-top: 0;
+  padding-top: 34px;}
 p {font-family: serif;
   24px;}
