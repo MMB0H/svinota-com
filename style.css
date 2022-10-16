@@ -1,12 +1,45 @@
-div {margin: auto;
-  width: 800px;
-  height: 500px;
-  background-color: LemonChiffon;
+.header {
+  background-color: #E0FFFF;
+  font-family: "Times New Roman", Georgia, Serif;
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+  width: 100%;
+  margin: 0;}
+h1 {
+  color: #000000;
+  font-size: 26px;
+  margin: 20px;}
+p {
+  color: #000000;
+  font-size: 23px;
+  margin: 20px;}
+.paragraph {
+  color: #000000;
+  font-size: 18px;
+  margin: 10px 10px;}
+.content {
+  width: 1200px;
+  height: 800;
+  margin: auto;
+  padding: 20px 15px 30px 15px;
+  background-color: #FFE4C4;
+  font-family: "Times New Roman", Georgia, Serif;
+  background-position: center;
   text-align: center;}
-button-1 {background-color: black;
-    color: white}
-h1 {color: green;
-  margin-top: 0;
-  padding-top: 34px;}
-p {font-family: serif;
-  24px;}
+.card {
+  display: inline-block;
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px 45px;
+  margin-right: 90px;
+  box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);}
+.image {
+  width: 200px;
+  margin: 20px 50px 0px 50px;
+  text-align: center;}
+.title-card {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;}
+.card-text{
+  text-align: justify;}
