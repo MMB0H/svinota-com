@@ -1,0 +1,39 @@
+body{
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: #FFFFE0;
+    padding: 10px 20px 30px;
+    /*display: block;*/
+}
+.table{
+    display: flex;
+  grid-template-columns: 800px 200px;
+}
+.text{
+    width: 100%;
+    float: left;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 0 40px 0;
+}
+.image {
+    margin: 0px 50px 50px 50px;
+    width: 200px;
+    /*text-align: center;*/
+    display: block;
+}
+.maru{
+    font-style: italic;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+button{
+    font-family: "Monaco", Georgia, Serif;
+}
