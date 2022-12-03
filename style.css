@@ -1,12 +1,16 @@
 body {
   background-color: #e0ffff;
+  margin: 0;
+  padding: 0;
 }
 .header {
+  background-color: #e0ffff;
   font-family: "Times New Roman", Georgia, Serif;
   text-align: center;
   width: 1000px;
   padding: 10px 10px 20px 10px;
   margin: 5px 200px;
+  display: inline-block;
 }
 h1 {
   color: #000000;
@@ -24,7 +28,7 @@ p {
   margin: 10px 10px 0 10px;
 }
 .content {
-  margin: auto;
+  width: 100%;
   padding: 20px 15px 30px 15px;
   background-color: #ffe4c4;
   font-family: "Times New Roman", Georgia, Serif;
@@ -33,10 +37,14 @@ p {
 }
 .card {
   display: inline-block;
+  overflow: hidden;
   width: 350px;
+  height: 500px;
+  margin: 0;
   margin-bottom: 60px;
   padding: 45px 45px 70px 45px;
   margin-right: 90px;
+  border: 1px solid;
   box-shadow: 4px 4px 5px rgba(232, 29, 29, 0.4);
 }
 .a {
@@ -44,23 +52,25 @@ p {
 }
 .image {
   border-radius: 20%;
-  width: 200px;
+  height: 150px;
   margin: 20px 50px 0px 50px;
   text-align: center;
 }
 .title-card {
   height: 65px;
   width: 170px;
-  border-radius: 50%;
-  background-color: rgba(219, 234, 190, 0.7);
+  border-radius: 0%;
+  background-color: rgba(181, 203, 136, 0.7);
   text-align: center;
   text-transform: uppercase;
-  margin-top: 10px;
+  font-weight: 900;
+  color: rgb(158, 120, 13);
+  margin: 50px 0 50px 0;
   cursor: pointer;
 }
 .card-text {
   text-align: justify;
 }
-a:visitor {
+a:visited {
   color: black;
 }
