@@ -3,13 +3,170 @@ body {
   margin: 0;
   padding: 0;
 }
+.banner {
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 20px;
+  width: 100%;
+  height: 140px;
+  background-color: #970ef2;
+  position: fixed;
+}
+.icon {
+  height: 50px;
+}
+.button-1 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  font-family: "Montserrat", sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 0 30px 0 10px;
+  text-decoration: none;
+}
+.button-1:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #32d4e2;
+  z-index: -1;
+  transition: 0.25s ease;
+  transform: translate(0, 0);
+}
+.button-1:hover:before {
+  transform: translate(4px, 4px);
+}
+.button-2 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  font-family: "Montserrat", sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 0 30px 0 10px;
+  text-decoration: none;
+}
+.button-2:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #ff9999;
+  z-index: -1;
+  transition: 0.25s ease;
+  transform: translate(0, 0);
+}
+.button-2:hover:before {
+  transform: translate(4px, 4px);
+}
+.button-3 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  font-family: "Montserrat", sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 0 30px 0 10px;
+  text-decoration: none;
+}
+.button-3:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #ffe680;
+  z-index: -1;
+  transition: 0.25s ease;
+  transform: translate(0, 0);
+}
+.button-3:hover:before {
+  transform: translate(4px, 4px);
+}
+.button-4 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  font-family: "Montserrat", sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 0 30px 0 10px;
+  text-decoration: none;
+}
+.button-4:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #99e699;
+  z-index: -1;
+  transition: 0.25s ease;
+  transform: translate(0, 0);
+}
+.button-4:hover:before {
+  transform: translate(4px, 4px);
+}
+.button-5 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  font-family: "Montserrat", sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 0 30px 0 10px;
+  text-decoration: none;
+}
+.button-5:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #b3b3ff;
+  z-index: -1;
+  transition: 0.25s ease;
+  transform: translate(0, 0);
+}
+.button-5:hover:before {
+  transform: translate(4px, 4px);
+}
 .header {
-  background-color: #e0ffff;
+  /*background-color: #e0ffff;*/
   font-family: "Times New Roman", Georgia, Serif;
   text-align: center;
   width: 1000px;
   padding: 10px 10px 20px 10px;
-  margin: 5px 200px;
+  margin: 200px 200px 5px;
   display: inline-block;
 }
 h1 {
