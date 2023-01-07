@@ -1,15 +1,14 @@
 body {
-  font-family: "Times New Roman", Georgia, Serif;
-  background-color: #ffffe0;
-  padding: 10px 20px 30px;
-  /*display: block;*/
+  margin: 0;
+  padding: 0;
 }
 .banner {
   margin: 0;
-  padding-top: 50px;
+  padding: 0;
+  padding-top: 10px;
   padding-left: 20px;
   width: 100%;
-  height: 140px;
+  height: 160px;
   background-color: #970ef2;
   position: fixed;
 }
@@ -23,6 +22,7 @@ body {
   position: relative;
   font-size: 16px;
   letter-spacing: 0.3em;
+  line-height: 65px;
   font-family: "Montserrat", sans-serif;
   padding: 17px 34px 17px 39px;
   transition: 0.2s ease-in-out;
@@ -161,6 +161,14 @@ body {
 .button-5:hover:before {
   transform: translate(4px, 4px);
 }
+.content {
+  padding-top: 180px;
+  font-family: "Times New Roman", Georgia, Serif;
+  background-color: white;
+  padding: 10px 20px 30px;
+  display: inline-block;
+  margin-top: 150px;
+}
 .table {
   display: flex;
   grid-template-columns: 800px 200px;
@@ -169,6 +177,7 @@ body {
   width: 100%;
   float: left;
   margin-right: 10px;
+  margin-left: 10px;
 }
 h1 {
   text-align: center;
@@ -181,6 +190,9 @@ p {
   text-align: justify;
   margin: 0 0 40px 0;
 }
+hr {
+  width: 200px;
+}
 .image {
   margin: 0px 50px 50px 50px;
   width: 200px;
@@ -188,9 +200,25 @@ p {
   display: block;
 }
 .maru {
-  font-style: italic;
   font-family: "Times New Roman", Georgia, Serif;
+}
+.imgmaru {
+  width: 300px;
+  margin: 10px 0 10px 0;
+  display: block;
 }
 button {
   font-family: "Monaco", Georgia, Serif;
+  text-transform: uppercase;
+  background-color: #ce9f9fad;
+  margin-right: 5px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: black;
 }
