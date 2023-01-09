@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  width: 1220px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: rgb(246, 220, 188);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  text-align: center;
+  margin-left: 10px;
+}
+.logo-img {
+height: 100px;
+}
+h1 {
+  margin: 0;
+}
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 180px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  margin: 0 10px 0 10px;
+}
+.nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  transition: 0.3s;
+}
+.nav-item a:hover {
+  color: rgb(161, 108, 9);
+}
+.welcome {
+  margin: 100px 0 20px 0;
+  text-align: center;
+}
+.welcome h2 {
+  font-size: 50px;
+}
+.welcome p {
+font-size: 24px;
+}
+.description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+.card {
+  width: 350px;
+  height: 500px;
+  margin: 20px auto;
+  padding: 0;
+  border: 1px solid;
+  box-shadow: 4px 4px 5px rgba(232, 29, 29, 0.4);
+}
+.inside-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+}
+.image {
+  border-radius: 20%;
+  height: 150px;
+  margin-top: 20px;
+}
+.title-card {
+  height: 65px;
+  width: 170px;
+  font-size: 17px;
+  background-color: rgb(246, 220, 188);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 50px 0 50px 0;
+}
+.title-card a {
+text-decoration: none;
+transition: 0.3s;
+color: #000000;
+}
+.title-card a:hover {
+  color: rgb(161, 108, 9);
+}

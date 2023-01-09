@@ -1,83 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link type="image/png" sizes="16x16" rel="icon" href="icons/16x16.png" />
     <title>Pixel I am</title>
-    <link rel="stylesheet" href="style.css" />
+    <link type="Image/icon" sizes="16x16" rel="icon" href="assets/icons/16x16.ico">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="banner">
-      <img class="icon" src="icons/caty.jpg" alt="иконка сайта" />
-      <a class="button-1" href="index.html" role="button">main</a>
-      <img class="icon" src="icons/cat2.jpg" alt="иконка сайта" />
-      <a class="button-2" href="index1.html" role="button">pixel page</a>
-      <img class="icon" src="icons/cat.jpg" alt="иконка сайта" />
-      <a class="button-3" href="index2.html" role="button">breeds</a>
-      <img class="icon" src="icons/paw.jpg" alt="иконка сайта" />
-      <a class="button-4" href="index3.html" role="button">cats</a>
-      <img class="icon" src="icons/cathome.jpg" alt="иконка сайта" />
-      <a class="button-5" href="index4.html" role="button">Find home</a>
-    </div>
-    <header class="header">
-      <h1>Welcome to my internet page!</h1>
-      <p>
-        I am a cat of an interesting breed - scottish fold. everything that you
-        were interested in about my breed and me personally, can be found on
-        this site.
-      </p>
-      <p class="paragraph">
-        If you are wondering why the name of the site "svinota.com", it because
-        I am a cat in a Russian-speaking family and sometimes I behave like a
-        pig. The word "svinota" in Russian language means pig.
-      </p>
-    </header>
+    <div class="body">
+      <header>
+        <div class="navbar">
+          <div class="logo">
+            <img src="assets/icons/logo.png" class="logo-img" alt="logo cat">
+            <h1> I am Pixel</h1>
+          </div>
+          <nav class="banner">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <img src="assets/icons/cat2.png" alt="favicon of section about cat">
+                <a href="index1.html">pixel page</a>
+              </li>
+              <li class="nav-item">
+                <img src="assets/icons/cat.png" alt="favicon of section about breeds">
+                <a href="index2.html">breeds</a>
+              </li>
+              <li class="nav-item">
+                <img src="assets/icons/paw.png" alt="favicon of section about cats">
+                <a href="index3.html">cats</a>
+              </li>
+              <li class="nav-item">
+                <img src="assets/icons/cathome.png" alt="favicon of section find home to cat" />
+                <a href="index4.html">Find home</a>
+              </li>
+              <li class="nav-item">
+                <img src="assets/icons/caty.png" alt="favicon of homepage">
+                <a class="link" href="index.html">game</a>
+              </li>
+            </ul>
+          </nav> 
+        </div>
+        <section class="welcome">
+          <h2>Welcome to my internet page!</h2>
+          <p>Everything that you were interested in about me personally, can be found on this site. You will know about my character, habits and favorite activities. And of course you will see a lot of my photos.
+          </p>
+          <p>If you are wondering, why the name of the site "svinota.com", it because I am a cat in a Russian-speaking family and sometimes I behave like a pig. The word "svinota" in Russian language means pig.
+          </p>
+        </section>
+      </header>
+      <main>
+        <div class="content">
+          <section class="description">
+            <div class="card">
+              <div class="inside-card">
+                <img src="assets/images/head_about_me.png" alt="cat name pixel" class="image">
+                <button class="title-card">
+                  <a href="#about-me">About me</a>
+                </button>
+                <p>If you are interested in information about me personally, go to this section.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="inside-card">
+                <img src="assets/images/head_about_me.png" alt="kitten" class="image">
+                <button class="title-card">
+                  <a href="#about-my-grew-up">I grew up</a>
+                  </button>
+                <p>In this section i tell you about my appearance in the family and my growing up.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="inside-card">
+                <img src="assets/images/head_about_me.png" alt="two people" class="image">
+                <button class="title-card">
+                  <a href="#about-parents">About my parents</a>
+                </button>
+                <p>Here I want to tell you about my parents. How I changed their life.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="inside-card">
+                <img src="assets/images/head_about_me.png" alt="cat" class="image">
+                <button class="title-card">
+                  <a href="#my-life">My Life</a>
+                </button>
+                <p>Here you will know about problems in my poor life.</p>
+              </div>
+            </div>
+          </section>
+          <section id="about-me">
+            <p>I am a cat of an interesting breed - scottish fold. </p>
 
-    <section class="content">
-      <div class="card">
-        <a class="a" href="index1.html">
-          <img src="icons/head about me.jpg" alt="картинка" class="image" />
-          <button class="title-card">About me</button>
-          <p class="card-text">
-            If you are interested in information about me personally, go to this
-            section. You will now about my character, habits and favorite
-            activities. And of course a lot of photos of me.
-          </p>
-        </a>
-      </div>
-      <div class="card">
-        <a class="a" href="index2.html">
-          <img src="icons/head about breed.jpeg" alt="картинка" class="image" />
-          <button class="title-card">About scottish fold</button>
-          <p class="card-text">
-            If you are interested in information about my breed, go to this
-            section. You will now about the characteristics of the breed
-            Scottish-fold, features and predispositions to diseases.
-          </p>
-        </a>
-      </div>
-      <div class="card">
-        <a class="a" href="index3.html">
-          <img src="icons/head about cats.jpeg" alt="картинка" class="image" />
-          <button class="title-card">About cats</button>
-          <p class="card-text">
-            If you are interested in information about cats, click here. The
-            whole truth about cats, types of breeds, characteristics and
-            characters.
-          </p>
-        </a>
-      </div>
-      <div class="card">
-        <a class="a" href="index4.html">
-          <img src="icons/catinhouse.jpg" alt="картинка" class="image" />
-          <button class="title-card">New home for cat</button>
-          <p class="card-text">
-            If you are interested in information about shelters click here.
-            Let's find а new home for fluffy balls - cats.
-          </p>
-        </a>
-      </div>
-    </section>
+
+
+          </section>
+        </div>
+        
+      </main>
+      <footer>
+
+
+
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
